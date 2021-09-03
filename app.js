@@ -18,7 +18,7 @@ const showRepos = (repo) => {
         const { html_url } = element
         html += 
         `<a href="${html_url}">
-        <img src="git.png" alt="avatar-repo" id="img-repos">
+        <img src="git.png" alt="avatar-repo" id="img">
         <span><b>Project: </b>${name}</span> 
         <p><b>Author: </b>${login}</p>
         </a>`

@@ -24,6 +24,17 @@ header{
     border-radius: 50%;
     width: 50%;
 }
+.technologies{
+    width: 95vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #286A69;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
 .container{
     width: 95vw;
     margin: auto;
@@ -31,9 +42,9 @@ header{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #D8D5C4;
+    background-color:#F4AD41;
 }
-a{
+a, .tech{
     width: 20%;
     margin: 1%;
     display: flex;
@@ -41,19 +52,20 @@ a{
     text-align: center;
     text-decoration: none;
     color: black;
-    background-color: #3C405C;
+    background-color: #213059;
     box-shadow: 7px 7px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     transition: 0.9s;
-    
 }
-
+.tech{
+    background-color: #EEE5D6;
+}
 a:hover{
-    box-shadow: 7px 7px rgba(0, 0, 0, 0.9);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.7);
     scale: 105%;
 
 }
-#img-repos{
+#img{
     width: 10rem;
     margin:auto;
 }
